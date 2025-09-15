@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fudbaler hvata lopte</title>
+    <style>
+      canvas {
+        background: #f0f0f0;
+        display: block;
+        margin: auto;
+      }
+      #game-over {
+        display: none;
+        text-align: center;
+        margin-top: 20px;
+      }
+      button {
+        margin: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <div id="game-over">
+      <h2>Game Over</h2>
+      <button id="restart">RESTART</button>
+      <button id="quit">QUIT</button>
+      <button id="play-again" style="display: none">PLAY AGAIN</button>
+    </div>
+    <script type="module" src="game.js"></script>
+  </body>
+</html>
